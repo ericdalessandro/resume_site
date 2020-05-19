@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'pangolinregular';
+    src: url('media/fonts/pangolin/pangolin-regular-webfont.woff2') format('woff2'),
+         url('media/fonts/pangolin/pangolin-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('media/fonts/Montserrat/montserrat-regular.woff2') format('woff2'),
+         url('media/fonts/Montserrat/montserrat-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#wrapper{
+    margin: 0;
+    padding: 0;
+    color: #2A363B;
+    font-family: "Courier", "Courier New", sans-serif;
+}
+#fixed_header {
+    background-color: #2A363B;
+    margin: 0;
+    padding: 1.5em;
+    font-family: "montserratregular", "Arial", serif;
+    color: #F5F5F5;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+main {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+}
+#about_me {
+    background-color: #FECEA8;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.about_me_sections {
+    margin-bottom: 2em;
+}
+.side_by_side {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    margin: auto;
+}
+#jcu p, #jcu ul {
+    width: 20%;
+    margin: auto;
+}
+#about_me_nested {
+    display: flex;
+}
+#about_me_nested div {
+    width: 50%;
+    text-align: center;
+}
+#about_me h1 {
+    text-align: center;
+    width: 100%;
+}
+#header_two_column{
+    display: flex;
+    width: 99.9999%;
+    background-color: #FF847C;
+    justify-content: space-between;
+    margin-top: 8.4em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+#hello_there {
+    width: 50%;
+    padding-left: 6em;
+    color: #2A363B;
+    font-family: "Courier", "Courier New", sans-serif;
+}
+#me{
+    width: 50%;
+    float: right;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 6em;
+}
+#title_name{
+    font-size: 5em;
+    font-family: "montserratregular", "Arial", serif;
+    color: #000; 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: dimgrey;
+    color: dimgrey;
+}
