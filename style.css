@@ -60,7 +60,7 @@ body {
     width: 30%;
     margin: auto;
 }
-#jcu p, #jcu ul {
+.school p, .school ul, .work p, .work ul {
     width: 20%;
     margin: auto;
 }
